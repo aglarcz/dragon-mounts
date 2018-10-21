@@ -83,12 +83,12 @@ public class EntityTameableDragon extends EntityFlyingTameable {
     private static final Logger L = LogManager.getLogger();
     
     // base attributes
-    public static final double BASE_SPEED_GROUND = 0.3;
+    public static final double BASE_SPEED_GROUND = 0.4;
     public static final double BASE_SPEED_AIR = 1.5;
     public static final double BASE_DAMAGE = 8;
-    public static final double BASE_HEALTH = 60;
-    public static final float BASE_WIDTH = 4;
-    public static final float BASE_HEIGHT = 3f;
+    public static final double BASE_HEALTH = 200;
+    public static final float BASE_WIDTH = 2.75f;
+    public static final float BASE_HEIGHT = 2.75f;
     public static final int HOME_RADIUS = 256;
     public static final Item FAVORITE_FOOD = Items.fish;
     
